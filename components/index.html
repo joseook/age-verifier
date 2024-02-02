@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    
+    <section>
+        <div>
+            <div class="box">
+                <label for="year">Ano de nascimento:</label>
+                <input type="number" name="year" id='year' required>
+            </div>
+            <div class="box">
+                <label for="gender">Sexo:</label>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="gender" id='genderMas' required checked>
+                <label for="fems">Feminino</label>
+                <input type="radio" name="gender" id='genderFem' required >
+            </div>
+            <div class="btn">
+                <button type="button" value="verificar">Verificar</button>
+            </div>
+        </div>
+        <div id = "res">
+            Preencha os dados acima para ver o resultado!.
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Joseok</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
