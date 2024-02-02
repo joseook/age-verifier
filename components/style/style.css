@@ -1,43 +1,69 @@
-body{
+body {
     background: rgb(70, 142, 235);
     font: normal 18pt Arial;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header {
     color: white;
     text-align: center;
+    padding: 15px;
 }
 
-section{
-    background: white;  
+section {
+    background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-div {
+.box {
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    width: 100%;
     padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-img {
-    border-radius: 100%;
-    width: 200px;
-    height: 200px;
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btn {
+    text-align: center;
 }
 
 button {
     padding: 10px;
-    color: black;
-    font-weight: bolder;
-    cursor:pointer
-    
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-footer{
+#res {
+    
+    padding: 10px;
+}
+
+footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 15px;
+    background: rgb(70, 142, 235);
 }
 
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}
