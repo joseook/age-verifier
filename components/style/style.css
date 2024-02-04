@@ -21,6 +21,12 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
 .box {
     margin-bottom: 15px;
 }
